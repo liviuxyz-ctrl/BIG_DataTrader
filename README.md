@@ -50,7 +50,7 @@ Refer to their documentation for detailed installation instructions.
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/advanced-trading-simulator.git
+   git clone https://github.com/liviuxyz-ctrl/BIG_DataTrader/
    cd advanced-trading-simulator
    ```
 
@@ -123,7 +123,3 @@ Contributions are welcome! If you have suggestions for improvements or bug fixes
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 ```
-
----
-
-Feel free to adjust the content as necessary for your specific project details. This README should serve as a comprehensive guide for setting up, running, and understanding your simulator and benchmark features.
