@@ -122,8 +122,6 @@ Refer to their documentation for detailed installation instructions.
 
 ## Screenshots
 
-*Place your images in the `images/` folder and update the paths below.*
-
 ![image](https://github.com/user-attachments/assets/aed4d142-e547-4d53-8841-173f3579de6f)
 
 *Figure 1: Simulation tab interface with file selection, parameter controls, and chart visualization.*
