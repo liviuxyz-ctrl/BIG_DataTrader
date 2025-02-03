@@ -9,6 +9,27 @@ The **Advanced Crypto Trading Simulator** is a powerful Python application desig
 
 This project leverages several powerful libraries, including Dask for parallel computations, TKCalendar for date selection, and Matplotlib for plotting results.
 
+## Data set 
+If you want to test you need this data set.
+
+The simulator expects CSV files with the following columns (with a header):
+
+```
+time,open,high,low,close,volume
+```
+
+- **time:** Unix timestamp in milliseconds.
+- **open, high, low, close:** Prices as floating-point numbers.
+- **volume:** Trading volume as a floating-point number.
+
+To download a recommended dataset from Kaggle, use the following command:
+
+```bash
+kaggle datasets download tencars/392-crypto-currency-pairs-at-minute-resolution
+```
+
+After downloading, unzip the file and place the CSV files in the `data` directory. Ensure that your CSV files are formatted as specified above.
+
 ## Features
 
 - **File Selection:** Search and select CSV files that contain historical trading data.
@@ -122,4 +143,3 @@ Contributions are welcome! If you have suggestions for improvements or bug fixes
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-```
